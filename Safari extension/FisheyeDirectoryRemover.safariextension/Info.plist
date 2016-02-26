@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Beniamin Sarkisyan</string>
+	<key>Builder Version</key>
+	<string>11601.4.4</string>
+	<key>CFBundleDisplayName</key>
+	<string>FisheyeDirectoryRemover</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.beniamin.fisheyedirectoryremover</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Companion Bundle Identifier</key>
+	<array/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>jquery-2.2.0.min.js</string>
+				<string>content.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Extension, which adds the ability to delete folders from the review</string>
+	<key>DeveloperIdentifier</key>
+	<string>XQ9P3KDDUW</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<false/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/Beniamiiin/FisheyeDirectoryRemover</string>
+</dict>
+</plist>
