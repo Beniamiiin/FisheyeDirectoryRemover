@@ -3,7 +3,7 @@ $(document).ready(function() {
     if(window.location.href.indexOf("crucible") >= 0 || window.location.href.indexOf("fisheye") >= 0){
         var appendAllModificationItems = function(){
         //adds additional close file icon for deleting whole directories
-        $("[id^='folder-list'] span.folder:first-child").each(function (i, el) {
+            $("[id^='folder-list'] span.folder:first-child").each(function (i, el) {
                 var span = '\
                 <span class="edit-remove-frx remove-directory" title="Remove this folder tree">\
                     <span class="aui-icon aui-icon-small aui-iconfont-remove">Remove</span>\
