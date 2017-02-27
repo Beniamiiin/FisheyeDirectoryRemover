@@ -24,7 +24,7 @@ $(document).ready(function() {
         };
 
         //if already in edit mode, add the modification items
-        if($("div.edit-mode-help").length > 0){
+        if($("div.edit-mode-help:visible").length > 0){
             appendAllModificationItems();
         }
 
